@@ -1,7 +1,5 @@
 import string_utils as su
 import equation_utils as eu
-import importlib, equation_utils
-importlib.reload(equation_utils)
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
 
     # 1.parse reaction
